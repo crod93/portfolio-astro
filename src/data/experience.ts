@@ -1,62 +1,51 @@
-import type { Props as ExperienceProp } from "../components/experience/props";
+import type { Props as ExperienceProp } from '../components/experience/props';
 
 export const EXPERIENCE: ExperienceProp[] = [
-  {
-    dates: "November 2021 — Present",
-    title: "Full Stack Engineer",
-    company: "Dutch Pet (Remote)",
-    companyUrl: "https://www.dutch.com",
-    description:
-      "Designed and architected dutch.com, utilizing technologies such as Shopify Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js, and Tailwind. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
-    technologies: [
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "Vue.JS",
-      "Node.JS",
-      "Liquid",
-      "Alpine.js",
-      "Tailwind",
-    ],
-    logo: "/logos/dutchpet.jpeg",
-  },
-  {
-    dates: "March 2021 — November 2021",
-    title: "Full Stack Ecommerce Engineer",
-    company: "AbsoluteWeb",
-    companyUrl: "https://www.absoluteweb.com",
-    description:
-      "Developed and maintained e-commerce solutions on Shopify (Storefront API, Admin API), BigCommerce, and Magento using React JS, Vue JS, Node JS, Liquid, SASS/PostCSS. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
-    technologies: [
-      "React JS",
-      "Vue JS",
-      "Node JS",
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "BigCommerce",
-      "Magento",
-      "Liquid",
-      "SASS/PostCSS",
-    ],
-    logo: "/logos/aws.jpeg",
-  },
-  {
-    dates: "December 2019 — January 2021",
-    title: "Product Designer",
-    company: "Miinto",
-    companyUrl: "https://www.miinto.com",
-    description:
-      "Created a Design System for the internal system using Figma. Developed a plugin for Figma to populate prototypes with real data to enhance the prototyping and testing experience. Conducted user research and testing, and created user flows, wireframes, and Hi-Fi prototypes.",
-    technologies: ["Figma"],
-    logo: "/logos/miinto.jpeg",
-  },
-  {
-    dates: "January 2019 — September 2019",
-    title: "Front-End Engineer",
-    company: "Efigence",
-    companyUrl: "https://www.efigence.com",
-    description:
-      "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
-    technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
-    logo: "/logos/efigence.jpeg",
-  },
+	{
+		dates: 'December 2022 — Present',
+		title: 'Sr Software Engineer',
+		company: 'IQVIA - DMD',
+		companyUrl: 'https://www.iqvia.com/',
+		description:
+			'Design & architected internal tooling applications, utilizing technologies such as Node JS, Remix JS, React, and Material UI. Worked on refactoring legacy systems to the latest technologies in web utilizing best practices.',
+		technologies: ['Node.JS', 'Material UI', 'Remix', 'React', 'AWS'],
+		logo: '/logos/dmd_digital_health_connections_logo.jpeg',
+	},
+	{
+		dates: 'June 2021 — December 2022',
+		title: 'Front-End Developer',
+		company: 'AVB Marketing',
+		companyUrl: 'https://www.avbmarketing.com/',
+		description:
+			'Developed and maintained e-commerce solutions built on Next JS and magento. Worked on integrating with the third party payment systems & APIs and collaborated closely with product owners to implement pixel-perfect layouts and user flows.',
+		technologies: ['React JS', 'Next JS', 'Node JS', 'Material UI', 'Magento'],
+		logo: '/logos/avbmarketing_logo.jpeg',
+	},
+	{
+		dates: 'October 2018 — May 2021',
+		title: 'Programming Analyst',
+		company: 'E & J Gallo Winery',
+		companyUrl: 'https://www.gallo.com/',
+		description:
+			'Worked in various roles as part of an eCommerce team. Developed marketing websites built on Angular and headless Drupal. Built out email templates in Salesforce Marketing Cloud. Developed Ionic (Angular) Clover Point of Sale application.',
+		technologies: ['Angular', 'SCSS', 'Drupal', 'Node JS', 'Ionic'],
+		logo: '/logos/e__j_gallo_winery_logo.jpeg',
+	},
+	{
+		dates: 'October 2016 — October 2018',
+		title: 'Software Developer',
+		company: 'Stanislaus County',
+		companyUrl: 'https://www.stancounty.com/',
+		description:
+			'Created and maintained databases in the MSSQL server, created any necessary queries and reports at staff request. Along with basic troubleshooting support. Implemented full-stack Express JS web app by rewriting legacy ColdFusion app. This app was used by county employees to submit monitor water testing samples.',
+		technologies: [
+			'JavaScript',
+			'JQuery',
+			'Express JS',
+			'Node JS',
+			'MSSQL',
+			'CSS',
+		],
+		logo: '/logos/stanislaus_county_logo.jpeg',
+	},
 ];
